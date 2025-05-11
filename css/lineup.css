@@ -1,0 +1,106 @@
+h1{
+    .logo{
+        background-color:#bde3f8;
+
+        li{
+            
+        img{
+            width: 11vw;
+            min-width: 100px ;
+            margin-top: 7px;
+        }
+
+       /* height: 50px; */
+
+        }
+        
+        ul{
+            list-style: none;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            padding: 0; /*大切！！*/
+        }
+        
+    }
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+/* h2{
+    .logo2{
+        img{
+        width: 170px;
+        display: block;
+        margin-left: 623px;
+        margin-right: auto;
+        margin-top: 10px;
+        z-index: -2;
+        }
+        z-index: -2;
+        }
+        position:absolute;
+        position: sticky;
+        top: 0;
+        z-index: -2;
+    } */
+
+
+
+.headerbg{
+    img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+    }
+
+
+
+
+
+/* ------------------------------------------------------- */
+
+.lineup{
+    img{
+        width: 100%;
+        position: relative;
+        z-index: -4;
+    }
+}
+
+.button{
+    ul{
+        display: block;
+        text-align: center;
+        list-style: none;
+        padding: 0; /*大切！！*/
+
+    }
+    img{
+        width: 220px;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    padding-top: 50px;
+}
+
+
+footer{
+    img{
+    width: 100%;
+    padding-top: 4vw;
+    }
+}
+
+
+
+
+*{
+    margin: 0;    /*border無し*/
+}
