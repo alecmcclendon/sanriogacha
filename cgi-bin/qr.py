@@ -29,7 +29,7 @@ HTML_Body = """
     <h1>
         <div class="logo">
             <ul>
-                <li><a href="../home.html"><img src="../img/logo.svg"></a></li>
+                <li><a href="../index.html"><img src="../img/logo.svg"></a></li>
             </ul>
         </div>
     </h1>
@@ -49,7 +49,7 @@ HTML_Foot = """
 
     <div class="button">
         <ul>
-            <li><a href="../home.html"><img src="../img/home_modoru.png" alt=""></a></li>
+            <li><a href="../index.html"><img src="../img/home_modoru.png" alt=""></a></li>
         </ul>
     </div>
 
