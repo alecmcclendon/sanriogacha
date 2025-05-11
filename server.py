@@ -2,13 +2,17 @@
 # server.py
 import http.server
 import socketserver
-import cgi
+import os
 
 PORT = 8000
 
+# Set the working directory for the server
+os.chdir('/opt/render/project/src')
+
+# Set the CGI handler
 Handler = http.server.CGIHTTPRequestHandler
 Handler.cgi_directories = ["/cgi-bin"]
 
+print(f"Serving at port {PORT}")
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print(f"Serving at port {PORT}")
     httpd.serve_forever()
