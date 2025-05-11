@@ -1,3 +1,2 @@
-touch requirements.txt
 git add requirements.txt
 git commit -m "Add empty requirements.txt"
