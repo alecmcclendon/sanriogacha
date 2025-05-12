@@ -5,8 +5,8 @@ h1 {
   
     .logo {
       background-color: #bde3f8;
-      padding-top: .5vw;   
-      padding-bottom: .5vw;  
+      padding-top: .7vw;   
+      padding-bottom: .7vw;  
       overflow: hidden;      
   
       ul {
@@ -23,7 +23,7 @@ h1 {
   
       img {
         display: block;       
-        width: 8vw;
+        width: 11vw;
         min-width: 100px;
         margin: 0 auto;       
       }
