@@ -81,7 +81,8 @@ h1{
 
     }
     img{
-        width: 220px;
+        width: 22vw;
+        min-width: 200px;
         
         &:hover {
             transform: scale(1.1);
