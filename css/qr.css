@@ -45,7 +45,8 @@ h1{
 .qr{
 
     img{
-        width: 500px;
+        width: 50vw;
+        min-width: 500px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -62,7 +63,8 @@ h1{
         padding: 0; /*大切！！*/
     }
     img{
-        width: 110px;
+        width: 11vw;
+        min-width: 110px;
         &:hover {
             transform: scale(1.1);
             }
@@ -79,7 +81,8 @@ h1{
 
     }
     img{
-        width: 220px;
+        width: 22vw;
+        min-width: 220px;
         
         &:hover {
             transform: scale(1.1);
