@@ -12,7 +12,7 @@ HTML_Head = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>summon</title>
-    <link rel="stylesheet" href="../css/summon.css">
+    <link rel="stylesheet" href="../css/summon.css?v=2">
 </head>
 """
  
