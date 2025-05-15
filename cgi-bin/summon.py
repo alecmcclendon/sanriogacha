@@ -39,9 +39,18 @@ HTML_Body = """
 
 
 # ランダム設定 -------------------------------------
-RandNum = random.randint(1,50)      # 1～50までのランダム値を取得（ファイル名の1～50になる）
-RandStr = str(RandNum)              # 取得した数値を文字へ変換
-FileName = RandStr + ".mp4"         # 1～50の文字と.mp4を結合してファイル名にする
+# グループごとの確率で番号を決定
+r = random.random()  # 0.0～1.0 のランダム値
+if r < 0.03:         # 上位 3% → 1～3
+    RandNum = random.randint(1, 3)
+elif r < 0.03 + 0.07:  # 次の 7% (合計10％）→ 4～10
+    RandNum = random.randint(4, 10)
+else:                 # 残り 90% → 11～50
+    RandNum = random.randint(11, 50)
+
+RandStr  = str(RandNum)              # 数字を文字に変換
+FileName = RandStr + ".mp4"          # ファイル名生成
+
 # HTMLに組み込む
 HTML_File = "<form action=\"\">\n <video autoplay muted>\n <source src=\"../vid/" + FileName + "\" type=\"video/mp4\">\n </video> </form>"
  
