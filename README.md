@@ -13,7 +13,7 @@ Web上で手軽に楽しめるガチャ体験を再現しており、展示作�
 
 - バックエンド: Python / CGI
 - フロントエンド: HTML / CSS / JavaScript
-- デザインツール: Illustrator / After Effects / Photoshop   
+- デザインツール: Illustrator / After Effects   
 - メディア管理: 動画（MP4） + QRコード画像（PNG） 
 - デプロイ: Render
   
